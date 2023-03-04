@@ -1,0 +1,12 @@
+a=int(input(""))
+b=int(input(""))
+c=int(input(""))
+if not((a+b)>c and (a+c)>b and (b+c)>a):
+    print("Khong hop le")
+else:
+    if a*a==b*b+c*c or b*b==a*a+c*c or c*c==a*a+b*b:
+        print("Tam giac vuong")
+    elif a==b and b==c and c==a:
+        print("Tam giac deu")
+    else:
+        print("Tam giac loai khac")
