@@ -8,7 +8,9 @@ elif ch=="-":
 elif ch=="*":
     print(x,"*",y,"=",x*y,sep="")
 elif ch=="/":
-    print(x,"/",y,"=",x/y,sep="")
+    if y==0:
+        print("Khong hop le")
+    elif y!=0:
+        print(x,"/",y,"=",x/y,sep="")
 else:
     print("Khong hop le")
-    

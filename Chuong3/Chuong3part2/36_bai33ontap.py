@@ -1,7 +1,9 @@
-i=2
+i=1
 j=1
 while i<=9:
+    j=1
     while j<=9:
-        i=i+1
+        print(i*j,end=' ')
         j=j+1
-        print(i)
+    print('')
+    i=i+1

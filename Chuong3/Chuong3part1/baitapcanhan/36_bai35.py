@@ -1,4 +1,4 @@
-a=int(input(""))
+a=float(input(""))
 if a==0:
     print("Xep loai A")
 elif a<2:
