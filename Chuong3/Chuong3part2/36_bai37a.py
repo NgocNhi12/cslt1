@@ -1,13 +1,10 @@
-n=int(input(""))
-if n>0:
-    giaithua=1
-    i=1
-    while i<=n:
-        giaithua=giaithua*i
-        i=i+1
-        print(giaithua) 
-elif n==0:
-    print("1")
-
-    
+while True:
+    n=int(input(""))
+    if n>=0:
+        j=1
+        for i in range(1,n+1,n-1):
+            j=j*n
+        print(j)
+    else:
+        break
     

@@ -1,8 +1,14 @@
-n=int(input(""))
-if n>0:
-    giaithua=1
-    for i in range(1,n+1):
-        giaithua=giaithua*i
-    print(giaithua)
-elif n==0:
-    print("1")
+while True:
+    n=int(input(""))
+    S=1
+    j=1
+    if n>=0:
+        for i in range(1,n):
+            S=S*i
+            j=S*n
+            print(j,sep="")
+    else:
+            break
+    
+        
+    

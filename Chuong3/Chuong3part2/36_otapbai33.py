@@ -1,6 +1,6 @@
-n=int(input("n="))
+n=input("n=")
 count=0
-while n!=0:
-    n//=10    
+for i in n:
+    i=1
     count=count+1
-print("co",count,"chu so")
+print(n,"co",count,"chu so")

@@ -1,5 +1,8 @@
 n=int(input("n="))
 for i in range(1,n+1):
-    for j in range(i,n+1,5):
-        print(j,end="\n")
-    print(end=" ")
+    if n>=1:
+        if i%5!=0:
+            print(i,end=" ")
+        if i%5==0:
+            print(i)
+        
