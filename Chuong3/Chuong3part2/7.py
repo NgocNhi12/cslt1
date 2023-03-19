@@ -1,3 +1,4 @@
+
 while True:
     n=int(input())
     if n>=0:
@@ -8,4 +9,3 @@ while True:
         print(j)
     else:
         break
-    
