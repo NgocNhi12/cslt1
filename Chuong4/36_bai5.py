@@ -1,12 +1,12 @@
 print("Nhap day so:")
 def LaSoNguyenTo(x):
-    count=0
-    for i in range(1,x+1):
+    if x<2:
+        return False
+    for i in range(2,x//2+1):
         if x%i==0:
-            count=count+1
-    if count==2:
-        return True
-    return False
+            return False
+        else:
+            return True
 def SoHopLe(x):
     if x<=1:
         return True
@@ -25,5 +25,3 @@ def InKQ(kq):
     print("Co",kq,"so nguyen to")
 kq=NhapVaDem()
 InKQ(kq)
-    
-    
